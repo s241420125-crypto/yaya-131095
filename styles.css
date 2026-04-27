@@ -1,0 +1,72 @@
+<style>
+    /* 1. Typography & Base */
+    body, h1, h2, h3, h4, h5, h6 { 
+        font-family: "Poppins", sans-serif; 
+    }
+    
+    body {
+        background: radial-gradient(circle, #222 0%, #000 100%);
+        background-attachment: fixed;
+        color: #ddd; /* Light grey text for better readability */
+        margin: 0;
+    }
+
+    /* 2. Sidebar */
+    .w3-sidebar { 
+        width: 120px; 
+        background: #111; 
+        border-right: 1px solid #333; 
+    }
+
+    /* 3. Main Content */
+    #main { 
+        margin-left: 120px; 
+        padding: 0 50px; 
+    }
+
+    /* 4. Text & Paragraph Spacing */
+    p { 
+        line-height: 1.8; 
+        margin-bottom: 25px; 
+        font-size: 15px;
+    }
+
+    /* 5. Image Gallery (About Page) */
+    .w3-row-padding img { 
+        margin-bottom: 24px; 
+        border-radius: 8px; 
+        filter: grayscale(30%); 
+        transition: 0.4s ease-in-out; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+    
+    .w3-row-padding img:hover { 
+        filter: grayscale(0%); 
+        transform: scale(1.03); 
+        box-shadow: 0 8px 16px rgba(255,255,255,0.2);
+    }
+
+    /* 6. Contact & Links */
+    .w3-section p b { 
+        color: #ffeb3b; /* Highlight important text in yellow */
+    }
+
+    .contact-link {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .contact-link:hover {
+        color: #ffeb3b !important;
+        text-decoration: underline;
+    }
+
+    /* 7. Mobile Responsive */
+    @media only screen and (max-width: 600px) { 
+        #main { 
+            margin-left: 0; 
+            padding: 0 20px; 
+        } 
+    }
+</style>

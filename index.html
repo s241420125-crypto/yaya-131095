@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thow Ren Ning | Home</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {font-family: "Poppins", sans-serif;}
+        .w3-sidebar { width: 120px; background: #222; }
+        #main { margin-left: 120px; }
+        
+        .bold-name { font-weight: 700; letter-spacing: 2px; }
+
+        /* Bbackground */
+        .header-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('harummanis_imagebythewayowner.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .overlay-box {
+            background: rgba(0,0,0,0.75); 
+            padding: 50px; 
+            border-radius: 20px; 
+            text-align: center;
+            border: 1px solid rgba(255, 235, 59, 0.2); /* thick line */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        @media only screen and (max-width: 600px) { #main { margin-left: 0; } }
+    </style>
+</head>
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <img src="harummanis_imagebythewayowner.jpeg" style="width:100%; filter: brightness(70%);">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-yellow">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+    </a>
+    <a href="role.html" class="w3-bar-item w3-button w3-padding-large w3-hover-yellow">
+        <i class="fa fa-briefcase w3-xxlarge"></i>
+        <p>ROLE</p>
+    </a>
+</nav>
+
+<div id="main">
+    <header class="header-bg">
+        <div class="overlay-box">
+            
+            <img src="harummanis_imagebythewayowner.jpeg" 
+                 style="width:180px; height:180px; border-radius: 80%; border: 4px solid #ffeb3b; margin-bottom: 25px; object-fit: cover;" 
+                 alt="Owner Photo">
+
+            <h1 class="w3-jumbo bold-name"><b>Thow Ren Ning</b></h1>
+            <hr style="width:100px; margin: auto; border-top: 3px solid #ffeb3b;" class="w3-opacity">
+            <br>
+            <p style="letter-spacing: 2px; text-transform: uppercase; font-size: 14px;">
+                Café Owner (By The Way) & Marketing Assistant
+            </p>
+        </div>
+    </header>
+</div>
+
+</body>
+</html>
